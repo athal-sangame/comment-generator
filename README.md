@@ -1,11 +1,17 @@
 # Athal Comment Generator 🤪 by Athal Sangame 
+https://athal-sangame.github.io/comment-generator/
 
 ## What is "Athal Comment Generator" ?
 Is our opensource product Comment Generator is a intiative which used to suggest facebook comments to the local community. who are at home due to the COVID-19 due to self-quarantine, trying to pull off old photos of friends.
 
+## Usecases
+- Pulling up old photos of friends
+- Pulling up old posts of friends
+- And many more ... 
+
 ## Add new comments 
-1) First Open the comment.json file
-2) Add your comment 
+1. First Open the comment.json file
+2. Add your comment 
     
    Please follow the format below
 
