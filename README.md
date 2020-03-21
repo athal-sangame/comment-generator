@@ -38,7 +38,7 @@ Please follow the "fork-and-pull" Git workflow.
 NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 
-## "DESCLAIMER"
+## Disclaimer
 Please note that the comments are not owned by us and we do not have any responsibility regarding the comments only for entertainment purposes.
 මෙය අපහාසයට හො උපහාසයට නොව හුදෙක් ආතල් එකට පමනි  🤪
 
