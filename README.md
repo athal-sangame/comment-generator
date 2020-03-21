@@ -41,7 +41,7 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 ## Disclaimer
 Please note that the comments are not authored by us and we do not take any responsibility regarding the comments or actions. This effort is for entertainment purposes only.
 
-මෙය අපහාසයට හො උපහාසයට නොව හුදෙක් ආතල් එකට පමනි  🤪
+මෙය අපහාසයට නොව හුදෙක් ආතල් එකට පමනි  🤪
 
    
 
