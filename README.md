@@ -17,7 +17,7 @@ Is our opensource product Comment Generator is a intiative which used to suggest
 
 ```javascript
    {
-      "awul_level" : "shape/awul/kunuharapa/...",
+      "awul_level" : "shape/poddak/kunuharapa/...",
       "comment": "COMMENT"
    }
    
