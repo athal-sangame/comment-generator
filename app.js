@@ -4,8 +4,9 @@ function loadRandomComment() {
     loadJSON(function (response) {
         var comments = JSON.parse(response);
         var comment = comments[Math.floor(Math.random() * comments.length)]
-        document.getElementById("test").value = comment.comment;
-        copyToClipboard()
+        document.getElementById("athal-text").value = comment.comment;
+        document.getElementById("athal-level").innerHTML = comment.awul_level;
+       // copyToClipboard()
         console.log(comment)
     });
 }
@@ -25,7 +26,7 @@ function loadJSON(callback) {
 }
 
 function copyToClipboard() {
-    var copyText = document.getElementById("test");
+    var copyText = document.getElementById("athal-text");
     copyText.select();
     copyText.setSelectionRange(0, 99999); 
     document.execCommand("copy");
