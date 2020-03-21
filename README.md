@@ -21,17 +21,19 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 ## ADDING THE COMMENT:- 
 1) First Open the comment.json file
 2) Add your comment * Please follow the format below
-   Format:- 
-   ``` {
+ ```Format:- 
+   {
       "awul_level" : "shape/awul/kunuharapa/...",
        "comment": "COMMENT"
-   }```
+   }
    
    Example:-
    {
       "awul_level": "poddak",
       "comment": "ම්ලේච්ඡ කාමුකයන්ගේ ඇස්වහ මේ මල් කැකුලු වලට නොවැටේවා!!!!!! තෙරුවන් සරණයි යාලු 🙂"
-   }
+   } ```
+   
+   
 
 
 
