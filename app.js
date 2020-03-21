@@ -5,7 +5,7 @@ function loadRandomComment() {
         var comments = JSON.parse(response);
         var comment = comments[Math.floor(Math.random() * comments.length)]
         document.getElementById("athal-text").value = comment.comment;
-        document.getElementById("copybtn").innerHTML = "Copy";
+        document.getElementById("copybtn").innerHTML = "<i class='fa fa-copy'></i> Copy";
         var color = '#007bff'
         var level  = comment.awul_level
         switch (comment.awul_level.toLowerCase())
@@ -39,7 +39,7 @@ function copyToClipboard() {
     copyText.select();
     copyText.setSelectionRange(0, 99999); 
     document.execCommand("copy");
-    document.getElementById("copybtn").innerHTML = "Copied";
+    document.getElementById("copybtn").innerHTML = "<i class='fa fa-copy'></i> Copied";
 
     //alert("Copied the text: " + copyText.value);
 }
