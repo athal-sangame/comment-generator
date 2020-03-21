@@ -7,7 +7,7 @@ Is our opensource product Comment Generator is a intiative which used to suggest
 ## Usecases
 - Pulling up old photos of friends
 - Pulling up old posts of friends
-- And many more ... 
+- And what ever for athal ... 
 
 ## Add new comments 
 1. First Open the comment.json file
@@ -18,7 +18,7 @@ Is our opensource product Comment Generator is a intiative which used to suggest
 ```javascript
    {
       "awul_level" : "shape/awul/kunuharapa/...",
-       "comment": "COMMENT"
+      "comment": "COMMENT"
    }
    
    {
