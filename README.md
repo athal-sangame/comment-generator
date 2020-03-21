@@ -22,10 +22,10 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 1) First Open the comment.json file
 2) Add your comment * Please follow the format below
    Format:- 
-   {
+   ``` {
       "awul_level" : "shape/awul/kunuharapa/...",
        "comment": "COMMENT"
-   }
+   }```
    
    Example:-
    {
