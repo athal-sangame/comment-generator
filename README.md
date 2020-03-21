@@ -39,7 +39,7 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 
 ## Disclaimer
-Please note that the comments are not owned by us and we do not have any responsibility regarding the comments. This effort is only for entertainment purposes.
+Please note that the comments are not authored by us and we do not take any responsibility regarding the comments or actions. This effort is for entertainment purposes only.
 
 මෙය අපහාසයට හො උපහාසයට නොව හුදෙක් ආතල් එකට පමනි  🤪
 
