@@ -1,7 +1,10 @@
 # Athal-Sangame | Comment Generator
 
-## Mortivation 
-Athal Sangame is a SriLankan Opensource Community , and the Comment Generator is a intiative which used to suggest comments
-to the local community.
+## WHO WE ARE ?
+We the Athal Sangame is a  Opensource Community based in SriLankan.
+
+## WHAT IS "Comment Generator" ?
+Is our opensource product Comment Generator is a intiative which used to suggest facebook comments to the local community. who are at home due to the COVID-19 due to curfew , trying to pull off old photos of friends.
+
 
 
