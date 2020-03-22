@@ -16,6 +16,7 @@ function loadRandomComment() {
         }
         document.getElementById("athal-level").innerHTML = level;
         document.getElementById("athal-level").style.backgroundColor = color;
+        document.getElementById("athal-comments-count").innerHTML = comments.length;
         console.log(comment)
     });
 }
