@@ -1,14 +1,21 @@
 loadRandomComment();
 
 function loadRandomComment(selected_awul_level) {
+    var previousComment = document.getElementById("athal-text").value
+    console.log("Previous Comment: "+ previousComment)
+    if(selected_awul_level==undefined){
+        selected_awul_level='shape'
+    }
     console.log(selected_awul_level)
     loadJSON(function (response) {
+        console.log(`${selected_awul_level} in loadJSON`)
         var comments = JSON.parse(response);
         var comment = comments[0]
         do{
             comment = comments[Math.floor(Math.random() * comments.length)]
         }
-        while(comment.awul_level != 'poddak');
+        while((comment.awul_level !== selected_awul_level) || (comment.comment === previousComment));
+
         document.getElementById("athal-text").value = comment.comment;
         document.getElementById("copybtn").innerHTML = "<i class='fa fa-copy'></i> Copy";
         var color = '#007bff'
