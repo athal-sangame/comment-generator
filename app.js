@@ -1,6 +1,7 @@
 loadRandomComment();
 
-function loadRandomComment() {
+function loadRandomComment(selected_awul_level) {
+    console.log(selected_awul_level)
     loadJSON(function (response) {
         var comments = JSON.parse(response);
         var comment = comments[Math.floor(Math.random() * comments.length)]
