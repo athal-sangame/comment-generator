@@ -8,7 +8,7 @@ function loadRandomComment(selected_awul_level) {
         do{
             comment = comments[Math.floor(Math.random() * comments.length)]
         }
-        while(comment.awul_level != selected_awul_level);
+        while(comment.awul_level != 'poddak');
         document.getElementById("athal-text").value = comment.comment;
         document.getElementById("copybtn").innerHTML = "<i class='fa fa-copy'></i> Copy";
         var color = '#007bff'
