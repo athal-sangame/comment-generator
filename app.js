@@ -4,7 +4,11 @@ function loadRandomComment(selected_awul_level) {
     console.log(selected_awul_level)
     loadJSON(function (response) {
         var comments = JSON.parse(response);
-        var comment = comments[Math.floor(Math.random() * comments.length)]
+        var comment = comments[0]
+        do{
+            comment = comments[Math.floor(Math.random() * comments.length)]
+        }
+        while(comment.awul_level != selected_awul_level);
         document.getElementById("athal-text").value = comment.comment;
         document.getElementById("copybtn").innerHTML = "<i class='fa fa-copy'></i> Copy";
         var color = '#007bff'
