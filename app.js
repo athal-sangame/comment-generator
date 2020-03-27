@@ -1,9 +1,22 @@
 loadRandomComment();
 
-function loadRandomComment() {
+function loadRandomComment(selected_awul_level) {
+    var previousComment = document.getElementById("athal-text").value
+    if(selected_awul_level==undefined){
+        selected_awul_level='oni_ekak'
+    }
     loadJSON(function (response) {
         var comments = JSON.parse(response);
-        var comment = comments[Math.floor(Math.random() * comments.length)]
+        var comment = comments[0]
+        if(selected_awul_level!=='oni_ekak'){
+            do{
+                comment = comments[Math.floor(Math.random() * comments.length)]
+            }
+            while((comment.awul_level !== selected_awul_level) || (comment.comment === previousComment));
+        }
+        else{
+            comment = comments[Math.floor(Math.random() * comments.length)]
+        }
         document.getElementById("athal-text").value = comment.comment;
         document.getElementById("copybtn").innerHTML = "<i class='fa fa-copy'></i> Copy";
         var color = '#007bff'
